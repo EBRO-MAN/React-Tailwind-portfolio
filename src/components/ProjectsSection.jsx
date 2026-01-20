@@ -7,23 +7,23 @@ const projects =[
         description: "This is my final year project made for local sheep breeding office to help them in breeding sheep using expert system techniques.",
         image: "/projects/project_1.png",
         tags: ["Django", "JavaScript", "HTML", "CSS", "MySQL"],
-        githubUrl: "#",
+        githubUrl: "https://github.com/EBRO-MAN/Django-sheep-ES",
     },
     {
         id: 2,
         title: "E-Commerce Website",
         description: "This is my internship project.",
-        image: "/projects/project2.jpg",
+        image: "/projects/project_2.png",
         tags: ["NodeJs", "React", "Tailwind CSS", "MongoDB"],
-        githubUrl: "#",
+        githubUrl: "https://github.com/EBRO-MAN/e-commerce",
     },
     {
         id: 3,
         title: "Blackjack Game",
         description: "This is my project first project.",
-        image: "/projects/project3.jpg",
+        image: "/projects/project_3.png",
         tags: ["JavaScript", "HTML", "CSS"],
-        githubUrl: "#",
+        githubUrl: "https://github.com/EBRO-MAN/Blackjack-game-in-js",
     }
 ]
 export const ProjectsSection = () => {

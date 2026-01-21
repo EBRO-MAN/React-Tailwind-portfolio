@@ -1,5 +1,7 @@
 
-import { Briefcase, Code, User } from "lucide-react";
+import { Code, Computer, User } from "lucide-react";
+
+<Computer />
 
 export const AboutSection = () => {
     return (<section id="about"
@@ -31,10 +33,10 @@ export const AboutSection = () => {
                         Get In Touch
                     </a>
 
-                    <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 ">
+                    {/* <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 ">
                         {" "}
                         Download CV
-                    </a>
+                    </a> */}
                    </div>
                 </div>
 
@@ -64,11 +66,11 @@ export const AboutSection = () => {
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <Briefcase className="h-6 w-6 text-primary " />
+                                <Computer className="h-6 w-6 text-primary " />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> Project Management</h4>
-                                <p className="text-muted-foreground">Overseeing projects from conception to completion, ensuring timely delivery and quality outcomes.</p>
+                                <h4 className="font-semibold text-lg"> Computer Maintainance</h4>
+                                <p className="text-muted-foreground">With 4+ years of experience providing technical support and maintenance services for computers.</p>
                             </div>
                         </div>
                     </div>

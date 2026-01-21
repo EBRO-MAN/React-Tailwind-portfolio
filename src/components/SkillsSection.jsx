@@ -21,10 +21,13 @@ const skills = [
     {name: "Git", level:80, category: "Tools" },
     {name: "Visual Studio Code", level:85, category: "Tools" },
 
+    //Other
+    {name: "Computer Maintainance", level:80, category: "Other" },
+
  
 ];
 
-const categories = ["All", "Frontend", "Backend", "Tools"];
+const categories = ["All", "Frontend", "Backend", "Tools", "Other"];
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("All");
     const filteredSkills = skills.filter((skill) => activeCategory === "All" || skill.category === activeCategory);
